@@ -1,0 +1,1125 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header {
+  height: 130px;
+  margin: 0 auto;
+  background: #09295a;
+}
+.header .container {
+  margin: 0 auto;
+}
+.header .container .logo {
+  text-align: center;
+  width: 33%;
+  float: left;
+  margin-top: 28px;
+}
+.header .container .logo p {
+  color: white;
+  margin-top: 10px;
+  line-height: 0;
+  float: none;
+  width: auto;
+  font-size: 16px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 400;
+}
+.header .container p {
+  color: white;
+  text-align: center;
+  width: 33%;
+  margin: 43px auto 0;
+  float: left;
+  font-size: 16px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 400;
+}
+.header .container .phone {
+  width: 33%;
+  float: right;
+  margin-top: 50px;
+}
+.header .container .phone p {
+  width: auto;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+.header .container .phone p span {
+  color: white;
+  font-size: 18px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 400;
+}
+
+.header_content {
+  background: url(img/first_bg.png) no-repeat;
+  background-size: cover;
+  min-height: 870px;
+}
+.header_content .sub_header_content {
+  text-align: center;
+  padding: 230px 0;
+}
+.header_content .sub_header_content h1 {
+  font-size: 35px;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 30px;
+}
+.header_content .sub_header_content p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "ProximaNova", sans-serif;
+  width: 44%;
+  color: #fff;
+  margin: 0 auto;
+}
+.header_content .sub_header_content button {
+  height: 70px;
+  width: 240px;
+  margin: 50px auto;
+  border-radius: 5px;
+  border: none;
+  background: #11daae;
+  color: #fff;
+}
+
+.finans {
+  min-height: 640px;
+}
+.finans .sub_finans h2 {
+  width: 550px;
+  line-height: 45px;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+  font-size: 35px;
+}
+.finans .sub_finans .finals_image {
+  float: left;
+  width: 35px;
+}
+.finans .sub_finans .finals_list {
+  float: right;
+  width: 65%;
+}
+
+.program_lesson .sub_program_lesson h2 {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 190px;
+  font-size: 18px;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.program_lesson .sub_program_lesson .check_block div {
+  float: left;
+}
+.program_lesson .sub_program_lesson .check_block div div:nth-child(1), .program_lesson .sub_program_lesson .check_block div div:nth-child(2) {
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: #09295a;
+  height: 35px;
+  margin-right: 20px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #09295a;
+}
+.program_lesson .sub_program_lesson .check_block div div:nth-child(1):hover, .program_lesson .sub_program_lesson .check_block div div:nth-child(2):hover {
+  background: #09295a;
+  color: #fff;
+}
+.program_lesson .sub_program_lesson .check_block p {
+  font-size: 18px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 600;
+  color: #09295a;
+}
+.program_lesson .sub_program_lesson .card {
+  position: relative;
+}
+.program_lesson .sub_program_lesson .card .block_card {
+  height: 264px;
+  float: left;
+  min-width: 265px;
+  width: 26%;
+  margin: 15px 1% 0;
+  padding: 30px 20px 40px 30px;
+  border-radius: 10px;
+  border-color: #ececec;
+  border-style: solid;
+  border-width: 1px;
+}
+.program_lesson .sub_program_lesson .card .block_card button {
+  border: none;
+  height: 40px;
+  padding: 0 20px;
+  width: auto;
+  color: #fff;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  background: #ff7340;
+}
+.program_lesson .sub_program_lesson .card .block_card p {
+  font-size: 17px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 400;
+  color: #09295a;
+  letter-spacing: 2.2px;
+}
+.program_lesson .sub_program_lesson .card .block_card:hover {
+  background: #09295a;
+}
+.program_lesson .sub_program_lesson .card .block_card:hover p {
+  color: #fff;
+}
+.program_lesson .sub_program_lesson .card .point_block_card_slick {
+  font-size: 50px;
+  font-weight: 600;
+  width: 75px;
+  color: #09295a;
+  margin: 0 auto;
+}
+
+.double_text {
+  position: relative;
+  width: 33%;
+  float: left;
+  margin-top: 135px;
+}
+.double_text span {
+  font-size: 80px;
+  font-family: "Myriad Pro", sans-serif;
+  color: rgba(255, 255, 255, 0.251);
+  position: absolute;
+  top: -52px;
+  left: 115px;
+}
+.double_text p {
+  text-align: left !important;
+  font-size: 16px !important;
+  font-family: "ProximaNova", sans-serif !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  position: absolute !important;
+  right: 15px !important;
+  width: 215px !important;
+}
+
+.finals_list_block {
+  height: 80px;
+}
+.finals_list_block img {
+  float: left;
+  width: 10%;
+}
+.finals_list_block div {
+  width: 5%;
+  margin-top: 40px;
+  height: 1px;
+  z-index: 9999;
+  float: left;
+  background: #003278;
+  color: #003278;
+}
+.finals_list_block p {
+  float: right;
+  width: 82%;
+}
+.finals_list_block p span {
+  font-size: 16px;
+  color: #09295a;
+  font-weight: 600;
+}
+
+.prezentation {
+  background: #003278;
+  min-height: 910px;
+}
+.prezentation .sub_prezentation {
+  padding: 60px 0 0 0;
+  margin-top: 30px;
+}
+.prezentation .sub_prezentation h2 {
+  margin: 0 auto;
+  width: 700px;
+  color: #fff;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 600;
+  font-family: "ProximaNova", sans-serif;
+}
+.prezentation .sub_prezentation p {
+  width: 750px;
+  color: #fff;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "ProximaNova", sans-serif;
+}
+.prezentation .sub_prezentation .check_block div {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.prezentation .sub_prezentation .check_block div div:nth-child(1), .prezentation .sub_prezentation .check_block div div:nth-child(2) {
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  height: 35px;
+  margin-right: 20px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+}
+.prezentation .sub_prezentation .check_block div div:nth-child(1):hover, .prezentation .sub_prezentation .check_block div div:nth-child(2):hover {
+  background: #fff;
+  color: #09295a;
+}
+.prezentation .sub_prezentation .check_block p {
+  font-size: 18px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 600;
+  color: #09295a;
+}
+.prezentation .sub_prezentation .card {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+}
+.prezentation .sub_prezentation .card .block_card {
+  height: 400px;
+}
+.prezentation .sub_prezentation .register_block {
+  display: flex;
+  overflow: hidden;
+  height: 190px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.prezentation .sub_prezentation .register_block div {
+  width: 400px;
+}
+.prezentation .sub_prezentation .register_block div p {
+  margin: 0;
+  width: auto;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "ProximaNova", sans-serif;
+  color: #fff;
+}
+.prezentation .sub_prezentation .register_block div .double_register_text {
+  text-align: center;
+  position: relative;
+}
+.prezentation .sub_prezentation .register_block div .double_register_text span {
+  font-size: 80px;
+  font-family: "Myriad Pro", sans-serif;
+  color: rgba(255, 255, 255, 0.251);
+}
+.prezentation .sub_prezentation .register_block div .double_register_text p {
+  text-align: left !important;
+  font-size: 16px !important;
+  font-family: "ProximaNova", sans-serif !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  position: absolute !important;
+  right: -52px !important;
+  top: 62px;
+  width: 215px !important;
+}
+.prezentation .sub_prezentation .register_block button {
+  height: 70px;
+  width: 235px;
+  color: #fff;
+  background: #11daae;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Myriad Pro", sans-serif;
+}
+
+.you_can {
+  min-height: 735px;
+  background: url(img/you_can_bg.png) no-repeat;
+  background-size: cover;
+}
+.you_can .sub_you_can {
+  padding: 90px 0 0 0;
+}
+.you_can .sub_you_can h2 {
+  margin: 0 auto;
+  width: 700px;
+  color: #fff;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 600;
+  font-family: "ProximaNova", sans-serif;
+}
+.you_can .sub_you_can .card {
+  margin-top: 150px;
+}
+.you_can .sub_you_can .card .double_curd_block {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  height: 230px;
+  width: 50%;
+  float: left;
+}
+.you_can .sub_you_can .card .double_curd_block span {
+  position: absolute;
+  top: -78px;
+  left: calc(50% - 25px);
+  font-size: 90px;
+  font-weight: 600;
+  font-family: "Myriad Pro", sans-serif;
+  color: rgba(255, 255, 255, 0.251);
+}
+.you_can .sub_you_can .card .double_curd_block p {
+  max-width: 435px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "ProximaNova", sans-serif;
+  color: #fff;
+}
+.you_can .sub_you_can .card .double_curd_block .content_card_you_can {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.location {
+  min-height: 440px;
+}
+.location .sub_location {
+  margin-top: -110px;
+}
+.location .sub_location div {
+  float: left;
+}
+.location .sub_location div .map_location_block {
+  height: 364px;
+}
+.location .sub_location div h2 {
+  font-size: 30px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.location .sub_location div p {
+  width: 500px;
+  font-size: 16px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+.location .sub_location div p span {
+  color: #000;
+  font-size: 16px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 600;
+}
+
+.base_course {
+  min-height: 820px;
+}
+.base_course .sub_base_course {
+  text-align: center;
+}
+.base_course .sub_base_course h2 {
+  color: #000;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 600;
+  font-family: "ProximaNova", sans-serif;
+}
+.base_course .sub_base_course .card {
+  margin-bottom: 50px;
+  height: 510px;
+}
+.base_course .sub_base_course .card .card_block {
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 33%;
+}
+.base_course .sub_base_course .card .card_block p {
+  max-width: 250px;
+  margin: 15px auto 0;
+}
+.base_course .sub_base_course button {
+  color: #fff;
+  font-size: 14px;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 400;
+  background: #11daae;
+  height: 70px;
+  width: 210px;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  min-height: 140px;
+  background: #09295a;
+}
+.footer .sub_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .sub_footer div {
+  width: 190px;
+  color: #fff;
+}
+.footer .sub_footer div .copy {
+  margin-top: 30px;
+}
+.footer .sub_footer div img {
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+
+  .header_content {
+    min-height: 710px;
+  }
+  .header_content .sub_header_content {
+    padding: 120px 0;
+  }
+
+  .double_text {
+    margin-top: 115px;
+  }
+  .double_text p {
+    right: 10px !important;
+    top: 11px;
+    width: 158px !important;
+  }
+
+  .finans {
+    min-height: 560px;
+  }
+  .finans .sub_finans h2 {
+    padding: 60px 0;
+  }
+  .finans .sub_finans .finals_image {
+    margin-left: 50px;
+    margin-top: 45px;
+    width: auto;
+  }
+  .finans .sub_finans .finals_image img {
+    width: 250px;
+  }
+
+  .program_lesson .sub_program_lesson .check_block {
+    padding: 0 20px;
+  }
+  .program_lesson .sub_program_lesson .card .block_card {
+    width: auto;
+    min-width: auto;
+    height: 120px;
+  }
+
+  .location .sub_location .left {
+    width: 50%;
+  }
+  .location .sub_location .left .left_block_image {
+    width: 100%;
+  }
+  .location .sub_location .left .left_block_image img {
+    width: 50%;
+    float: left;
+  }
+  .location .sub_location .right {
+    width: 50%;
+  }
+  .location .sub_location .right img {
+    height: 335px;
+  }
+
+  .footer .sub_footer div:nth-child(1) {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+
+  .header {
+    height: 85px;
+  }
+  .header .container p {
+    margin: 27px auto 0;
+    font-size: 10px;
+  }
+  .header .container .logo {
+    margin-top: 20px;
+  }
+  .header .container .logo img {
+    height: 25px;
+  }
+  .header .container .logo p {
+    margin: 0;
+    font-size: 10px;
+    line-height: 10px;
+    width: 175px;
+  }
+  .header .container .phone {
+    margin-top: 33px;
+  }
+  .header .container .phone p img {
+    height: 10px;
+  }
+  .header .container .phone p span {
+    font-size: 10px;
+  }
+
+  .header_content {
+    min-height: 500px;
+  }
+  .header_content .sub_header_content {
+    padding: 70px 0;
+  }
+  .header_content .sub_header_content h1 {
+    font-size: 20px;
+  }
+  .header_content .sub_header_content p {
+    font-size: 12px;
+    width: 70%;
+  }
+  .header_content .sub_header_content button {
+    height: 45px;
+    width: 200px;
+    margin: 40px auto;
+  }
+
+  .double_text {
+    margin-top: 85px;
+  }
+  .double_text span {
+    font-size: 45px;
+    top: -32px;
+    left: 15px;
+  }
+  .double_text p {
+    font-size: 12px !important;
+    width: 95px !important;
+  }
+
+  .finans {
+    min-height: 680px;
+  }
+  .finans .sub_finans h2 {
+    width: auto;
+    line-height: 40px;
+    padding: 50px 0;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "ProximaNova", sans-serif;
+  }
+  .finans .sub_finans .finals_image {
+    text-align: center;
+    width: auto;
+    float: none;
+  }
+  .finans .sub_finans .finals_image img {
+    height: 145px;
+  }
+  .finans .sub_finans .finals_list {
+    width: auto;
+  }
+
+  .program_lesson .sub_program_lesson .card .block_card {
+    height: auto;
+    float: none;
+    min-width: auto;
+    width: auto;
+  }
+
+  .you_can .sub_you_can h2 {
+    width: auto;
+    font-size: 20px;
+  }
+  .you_can .sub_you_can .card {
+    margin-top: 115px;
+  }
+  .you_can .sub_you_can .card .double_curd_block {
+    display: block;
+    height: 230px;
+    width: auto;
+    float: none;
+  }
+
+  .location .sub_location {
+    margin: auto;
+  }
+  .location .sub_location .left .left_block_image img {
+    width: 50%;
+    float: left;
+  }
+  .location .sub_location div .map_location_block {
+    height: 315px;
+  }
+
+  .base_course .sub_base_course .card {
+    height: 550px;
+  }
+  .base_course .sub_base_course button {
+    margin: 0 auto 30px;
+  }
+
+  .footer {
+    min-height: 110px;
+  }
+  .footer .sub_footer p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+
+  .header {
+    height: 50px;
+  }
+  .header .container {
+    padding: 12px 0;
+  }
+  .header .container p {
+    display: none;
+    margin: 27px auto 0;
+    font-size: 10px;
+  }
+  .header .container .logo {
+    width: auto;
+    float: none;
+    margin-top: auto;
+  }
+  .header .container .logo img {
+    height: 25px;
+  }
+  .header .container .logo p {
+    margin: 0;
+    font-size: 10px;
+    line-height: 10px;
+    width: 175px;
+  }
+  .header .container .phone {
+    display: none;
+  }
+
+  .header_content {
+    min-height: 500px;
+  }
+  .header_content .sub_header_content {
+    padding: 35px 0;
+  }
+  .header_content .sub_header_content h1 {
+    font-size: 20px;
+  }
+  .header_content .sub_header_content p {
+    font-size: 12px;
+    width: 70%;
+  }
+  .header_content .sub_header_content button {
+    height: 45px;
+    width: 200px;
+    margin: 40px auto;
+  }
+
+  .double_text {
+    margin-top: 65px;
+  }
+  .double_text span {
+    font-size: 30px;
+    top: -32px;
+    left: 15px;
+  }
+  .double_text p {
+    font-size: 10px !important;
+    right: 22px !important;
+    width: 55px !important;
+  }
+
+  .finans {
+    min-height: 810px;
+  }
+  .finans .sub_finans h2 {
+    width: auto;
+    line-height: 40px;
+    padding: 50px 0;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "ProximaNova", sans-serif;
+  }
+  .finans .sub_finans .finals_image {
+    text-align: center;
+    width: auto;
+    float: none;
+  }
+  .finans .sub_finans .finals_image img {
+    height: 145px;
+  }
+  .finans .sub_finans .finals_list {
+    width: auto;
+  }
+  .finans .sub_finans .finals_list .finals_list_block {
+    height: 112px;
+  }
+  .finans .sub_finans .finals_list .finals_list_block img {
+    display: none;
+  }
+  .finans .sub_finans .finals_list .finals_list_block p {
+    width: 90%;
+  }
+
+  .program_lesson .sub_program_lesson .check_block div {
+    width: 270px;
+    margin-bottom: 10px;
+    margin-left: 42px;
+  }
+  .program_lesson .sub_program_lesson .check_block p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .program_lesson .sub_program_lesson .card .block_card {
+    height: auto;
+    float: none;
+    min-width: auto;
+    width: auto;
+  }
+
+  .prezentation {
+    min-height: 715px;
+  }
+  .prezentation .sub_prezentation h2 {
+    width: auto;
+    font-size: 20px;
+  }
+  .prezentation .sub_prezentation p {
+    font-size: 12px;
+    width: auto;
+  }
+  .prezentation .sub_prezentation .card .block_card {
+    height: 200px;
+  }
+  .prezentation .sub_prezentation .card .block_card img {
+    height: 200px;
+  }
+  .prezentation .sub_prezentation .register_block {
+    display: block;
+  }
+  .prezentation .sub_prezentation .register_block div {
+    width: auto;
+  }
+  .prezentation .sub_prezentation .register_block button {
+    height: 40px;
+    width: 190px;
+    margin: 15px auto;
+    display: block;
+  }
+
+  .you_can .sub_you_can h2 {
+    width: auto;
+    font-size: 20px;
+  }
+  .you_can .sub_you_can .card {
+    margin-top: 115px;
+  }
+  .you_can .sub_you_can .card .double_curd_block {
+    display: block;
+    height: 230px;
+    width: auto;
+    float: none;
+  }
+
+  .location {
+    min-height: 480px;
+  }
+  .location .sub_location {
+    margin: auto;
+  }
+  .location .sub_location .left .left_block_image img {
+    width: 50%;
+    float: left;
+  }
+  .location .sub_location div p {
+    width: auto;
+  }
+  .location .sub_location div .map_location_block {
+    height: 195px;
+  }
+
+  .base_course .sub_base_course .card {
+    height: 785px;
+  }
+  .base_course .sub_base_course .card .card_block {
+    width: 50%;
+    margin-top: 40px;
+  }
+  .base_course .sub_base_course button {
+    margin: 0 auto 30px;
+  }
+
+  .footer {
+    min-height: 110px;
+  }
+  .footer .sub_footer {
+    display: block;
+    text-align: center;
+  }
+  .footer .sub_footer div {
+    width: auto;
+  }
+  .footer .sub_footer div img {
+    margin: 20px;
+  }
+  .footer .sub_footer p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 310px;
+  }
+
+  .header {
+    height: 50px;
+  }
+  .header .container {
+    padding: 12px 0;
+  }
+  .header .container p {
+    display: none;
+    margin: 27px auto 0;
+    font-size: 10px;
+  }
+  .header .container .logo {
+    width: auto;
+    float: none;
+    margin-top: auto;
+  }
+  .header .container .logo img {
+    height: 25px;
+  }
+  .header .container .logo p {
+    margin: 0;
+    font-size: 10px;
+    line-height: 10px;
+    width: 175px;
+  }
+  .header .container .phone {
+    display: none;
+  }
+
+  .header_content {
+    min-height: 500px;
+  }
+  .header_content .sub_header_content {
+    padding: 35px 0;
+  }
+  .header_content .sub_header_content h1 {
+    font-size: 20px;
+  }
+  .header_content .sub_header_content p {
+    font-size: 12px;
+    width: 70%;
+  }
+  .header_content .sub_header_content button {
+    height: 45px;
+    width: 200px;
+    margin: 40px auto;
+  }
+
+  .double_text {
+    margin-top: 65px;
+  }
+  .double_text span {
+    font-size: 30px;
+    top: -32px;
+    left: 15px;
+  }
+  .double_text p {
+    font-size: 10px !important;
+    right: 22px !important;
+    width: 55px !important;
+  }
+
+  .finans {
+    min-height: 810px;
+  }
+  .finans .sub_finans h2 {
+    width: auto;
+    line-height: 40px;
+    padding: 50px 0;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "ProximaNova", sans-serif;
+  }
+  .finans .sub_finans .finals_image {
+    text-align: center;
+    width: auto;
+    float: none;
+  }
+  .finans .sub_finans .finals_image img {
+    height: 145px;
+  }
+  .finans .sub_finans .finals_list {
+    width: auto;
+  }
+  .finans .sub_finans .finals_list .finals_list_block {
+    height: 112px;
+  }
+  .finans .sub_finans .finals_list .finals_list_block img {
+    display: none;
+  }
+  .finans .sub_finans .finals_list .finals_list_block p {
+    width: 90%;
+  }
+
+  .program_lesson .sub_program_lesson .check_block div {
+    width: 270px;
+    margin-bottom: 10px;
+    margin-left: 42px;
+  }
+  .program_lesson .sub_program_lesson .check_block p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .program_lesson .sub_program_lesson .card .block_card {
+    height: auto;
+    float: none;
+    min-width: auto;
+    width: auto;
+  }
+
+  .prezentation {
+    min-height: 715px;
+  }
+  .prezentation .sub_prezentation h2 {
+    width: auto;
+    font-size: 20px;
+  }
+  .prezentation .sub_prezentation p {
+    font-size: 12px;
+    width: auto;
+  }
+  .prezentation .sub_prezentation .card .block_card {
+    height: 200px;
+  }
+  .prezentation .sub_prezentation .card .block_card img {
+    height: 200px;
+  }
+  .prezentation .sub_prezentation .register_block {
+    display: block;
+  }
+  .prezentation .sub_prezentation .register_block div {
+    width: auto;
+  }
+  .prezentation .sub_prezentation .register_block button {
+    height: 40px;
+    width: 190px;
+    margin: 15px auto;
+    display: block;
+  }
+
+  .you_can .sub_you_can h2 {
+    width: auto;
+    font-size: 20px;
+  }
+  .you_can .sub_you_can .card {
+    margin-top: 115px;
+  }
+  .you_can .sub_you_can .card .double_curd_block {
+    display: block;
+    height: 230px;
+    width: auto;
+    float: none;
+  }
+
+  .location {
+    min-height: 480px;
+  }
+  .location .sub_location {
+    margin: auto;
+  }
+  .location .sub_location .left .left_block_image img {
+    width: 50%;
+    float: left;
+  }
+  .location .sub_location div p {
+    width: auto;
+  }
+  .location .sub_location div .map_location_block {
+    height: 195px;
+  }
+
+  .base_course .sub_base_course .card {
+    height: 785px;
+  }
+  .base_course .sub_base_course .card .card_block {
+    width: 50%;
+    margin-top: 40px;
+  }
+  .base_course .sub_base_course button {
+    margin: 0 auto 30px;
+  }
+
+  .footer {
+    min-height: 110px;
+  }
+  .footer .sub_footer {
+    display: block;
+    text-align: center;
+  }
+  .footer .sub_footer div {
+    width: auto;
+  }
+  .footer .sub_footer div img {
+    margin: 20px;
+  }
+  .footer .sub_footer p {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

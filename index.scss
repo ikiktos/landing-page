@@ -1,0 +1,1311 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header {
+  height: 130px;
+  margin: 0 auto;
+  background: #09295a;
+  .container {
+    margin: 0 auto;
+    .logo {
+      text-align: center;
+      width: 33%;
+      float: left;
+      margin-top: 28px;
+      p {
+        color: white;
+        margin-top: 10px;
+        line-height: 0;
+        float: none;
+        width: auto;
+        font: {
+          size: 16px;
+          family: 'ProximaNova', sans-serif;
+          weight: 400;
+        }
+      }
+    }
+    p {
+      color: white;
+      text-align: center;
+      width: 33%;
+      margin: 43px auto 0;
+      float: left;
+      font: {
+        size: 16px;
+        family: 'ProximaNova', sans-serif;
+        weight: 400;
+      }
+    }
+    .phone {
+      width: 33%;
+      float: right;
+      margin-top: 50px;
+      p {
+        width: auto;
+        float: none;
+        margin: 0;
+        padding: 0;
+        span {
+          color: white;
+          font: {
+            size: 18px;
+            family: 'ProximaNova', sans-serif;
+            weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header_content {
+  background: url(img/first_bg.png) no-repeat;
+  background-size: cover;
+  min-height: 870px;
+  .sub_header_content {
+    text-align: center;
+    padding: 230px 0;
+    h1 {
+      font: {
+        size: 35px;
+        family: 'Myriad Pro', sans-serif;
+        weight: 600;
+      }
+      color: #fff;
+      margin: 0 0 30px;
+    }
+    p {
+      font: {
+        size: 18px;
+        weight: 400;
+        family: "ProximaNova", sans-serif;
+      }
+      width: 44%;
+      color: #fff;
+      margin: 0 auto;
+    }
+    button {
+      height: 70px;
+      width: 240px;
+      margin: 50px auto;
+      border-radius: 5px;
+      border: none;
+      background: #11daae;
+      color: #fff;
+    }
+  }
+}
+
+.finans {
+  min-height: 640px;
+  .sub_finans {
+    h2 {
+      width: 550px;
+      line-height: 45px;
+      margin: 0 auto;
+      padding: 100px 0;
+      text-align: center;
+      font-size: 35px;
+    }
+    .finals_image {
+      float: left;
+      width: 35px;
+    }
+    .finals_list {
+      float: right;
+      width: 65%;
+
+    }
+  }
+}
+
+.program_lesson {
+  .sub_program_lesson {
+    h2 {
+      margin: 0 auto;
+      padding: 50px 0;
+      width: 190px;
+      font: {
+        size: 18px;
+        family: 'Myriad Pro', sans-serif;
+        weight: 600;
+      }
+      color: #000;
+    }
+    .check_block {
+      div {
+        float: left;
+        div {
+          &:nth-child(1), &:nth-child(2) {
+            width: 35px;
+            text-align: center;
+            line-height: 35px;
+            color: #09295a;
+            height: 35px;
+            margin-right: 20px;
+            border: {
+              radius: 30px;
+              style: solid;
+              width: 1px;
+              color: #09295a;
+            }
+            &:hover {
+              background: #09295a;
+              color: #fff;
+            }
+          }
+        }
+      }
+      p {
+        font: {
+          size: 18px;
+          family: 'ProximaNova', sans-serif;
+          weight: 600;
+        }
+        color: #09295a;
+      }
+    }
+    .card {
+      position: relative;
+      .block_card {
+        height: 264px;
+        float: left;
+        min-width: 265px;
+        width: 26%;
+        margin: 15px 1% 0;
+        padding: 30px 20px 40px 30px;
+        border: {
+          radius: 10px;
+          color: #ececec;
+          style: solid;
+          width: 1px;
+        }
+        button {
+          border: none;
+          height: 40px;
+          padding: 0 20px;
+          width: auto;
+          color: #fff;
+          font: {
+            family: 'ProximaNova', sans-serif;
+            weight: 500;
+            size: 15px;
+          }
+          background: #ff7340;
+        }
+        p {
+          font: {
+            size: 17px;
+            family: 'ProximaNova', sans-serif;
+            weight: 400;
+          }
+          color: #09295a;
+          letter-spacing: 2.2px;
+        }
+        &:hover {
+          background: #09295a;
+          p {
+            color: #fff;
+          }
+        }
+      }
+      .point_block_card_slick {
+        font-size: 50px;
+        font-weight: 600;
+        width: 75px;
+        color: #09295a;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.double_text {
+  position: relative;
+  width: 33%;
+  float: left;
+  margin-top: 135px;
+  span {
+    font-size: 80px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(255, 255, 255, 0.251);
+    position: absolute;
+    top: -52px;
+    left: 115px;
+  }
+  p {
+    text-align: left !important;
+    font: {
+      size: 16px !important;
+      family: 'ProximaNova', sans-serif !important;
+      weight: 400 !important;
+    }
+    color: #fff !important;
+    position: absolute !important;
+    right: 15px !important;
+    width: 215px !important;
+  }
+}
+
+.finals_list_block {
+  height: 80px;
+  img {
+    float: left;
+    width: 10%;
+  }
+  div {
+    width: 5%;
+    margin-top: 40px;
+    height: 1px;
+    z-index: 9999;
+    float: left;
+    background: #003278;
+    color: #003278;
+  }
+  p {
+    float: right;
+    width: 82%;
+    span {
+      font-size: 16px;
+      color: #09295a;
+      font-weight: 600;
+    }
+  }
+}
+
+.prezentation {
+  background: #003278;
+  min-height: 910px;
+  .sub_prezentation {
+    padding: 60px 0 0 0;
+    margin-top: 30px;
+    h2 {
+      margin: 0 auto;
+      width: 700px;
+      color: #fff;
+      text-align: center;
+      font-size: 27px;
+      font-weight: 600;
+      font-family: "ProximaNova", sans-serif;
+    }
+    p {
+      width: 750px;
+      color: #fff;
+      margin: 40px auto;
+      text-align: center;
+      font: {
+        size: 18px;
+        weight: 400;
+        family: "ProximaNova", sans-serif;
+      }
+    }
+    .check_block {
+      div {
+        display: inline-block;
+        margin-bottom: 15px;
+        div {
+          &:nth-child(1), &:nth-child(2) {
+            width: 35px;
+            text-align: center;
+            line-height: 35px;
+            color: #fff;
+            height: 35px;
+            margin-right: 20px;
+            border: {
+              radius: 30px;
+              style: solid;
+              width: 1px;
+              color: #fff;
+            }
+            &:hover {
+              background: #fff;
+              color: #09295a;
+            }
+          }
+        }
+      }
+      p {
+        font: {
+          size: 18px;
+          family: 'ProximaNova', sans-serif;
+          weight: 600;
+        }
+        color: #09295a;
+      }
+    }
+    .card {
+      display: flex;
+      overflow: hidden;
+      flex-direction: row;
+      justify-content: center;
+      .block_card {
+        height: 400px;
+      }
+    }
+    .register_block {
+      display: flex;
+      overflow: hidden;
+      height: 190px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      div {
+        width: 400px;
+        p {
+          margin: 0;
+          width: auto;
+          padding: 0;
+          font: {
+            size: 18px;
+            weight: 400;
+            family: 'ProximaNova', sans-serif;
+          }
+          color: #fff;
+        }
+        .double_register_text {
+          text-align: center;
+          position: relative;
+          span {
+            font-size: 80px;
+            font-family: "Myriad Pro", sans-serif;
+            color: rgba(255, 255, 255, 0.251);
+          }
+          p {
+            text-align: left !important;
+            font-size: 16px !important;
+            font-family: "ProximaNova", sans-serif !important;
+            font-weight: 400 !important;
+            color: #fff !important;
+            position: absolute !important;
+            right: -52px !important;
+            top: 62px;
+            width: 215px !important;
+          }
+        }
+      }
+      button {
+        height: 70px;
+        width: 235px;
+        color: #fff;
+        background: #11daae;
+        border: none;
+        border-radius: 5px;
+        font: {
+          size: 14px;
+          weight: 400;
+          family: "Myriad Pro", sans-serif;
+        }
+      }
+    }
+  }
+}
+
+.you_can {
+  min-height: 735px;
+  background: url(img/you_can_bg.png) no-repeat;
+  background-size: cover;
+  .sub_you_can {
+    padding: 90px 0 0 0;
+    h2 {
+      margin: 0 auto;
+      width: 700px;
+      color: #fff;
+      text-align: center;
+      font-size: 27px;
+      font-weight: 600;
+      font-family: "ProximaNova", sans-serif;
+    }
+    .card {
+      margin-top: 150px;
+      .double_curd_block {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        height: 230px;
+        width: 50%;
+        float: left;
+        span {
+          position: absolute;
+          top: -78px;
+          left: calc(50% - 25px);
+          font: {
+            size: 90px;
+            weight: 600;
+            family: "Myriad Pro", sans-serif;
+          }
+          color: rgba(255, 255, 255, 0.251);
+        }
+        p {
+          max-width: 435px;
+          margin: 0 auto 20px;
+          font: {
+            size: 18px;
+            weight: 600;
+            family: 'ProximaNova', sans-serif;
+          }
+          color: #fff;
+        }
+        .content_card_you_can {
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.location {
+  min-height: 440px;
+  .sub_location {
+    margin-top: -110px;
+    div {
+      .map_location_block {
+        height: 364px;
+      }
+      h2 {
+        font: {
+          size: 30px;
+          family: 'ProximaNova', sans-serif;
+          weight: 600;
+        }
+        color: #000;
+      }
+      p {
+        width: 500px;
+        font: {
+          size: 16px;
+          family: 'ProximaNova', sans-serif;
+          weight: 400;
+        }
+        color: #000;
+        span {
+          color: #000;
+          font: {
+            size: 16px;
+            family: 'ProximaNova', sans-serif;
+            weight: 600;
+          }
+        }
+      }
+      float: left;
+
+    }
+  }
+}
+
+.base_course {
+  min-height: 820px;
+  .sub_base_course {
+    text-align: center;
+    h2 {
+      color: #000;
+      text-align: center;
+      font-size: 27px;
+      font-weight: 600;
+      font-family: "ProximaNova", sans-serif;
+    }
+    .card {
+      margin-bottom: 50px;
+      height: 510px;
+      .card_block {
+        margin-top: 60px;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 33%;
+        p {
+          max-width: 250px;
+          margin: 15px auto 0;
+        }
+      }
+    }
+    button {
+      color: #fff;
+      font: {
+        size: 14px;
+        family: 'ProximaNova', sans-serif;
+        weight: 400;
+      }
+      background: #11daae;
+      height: 70px;
+      width: 210px;
+      clear: both;
+      display: block;
+      margin: 0 auto;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}
+
+.footer {
+  min-height: 140px;
+  background: #09295a;
+  .sub_footer {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 190px;
+      color: #fff;
+      .copy {
+        margin-top: 30px;
+      }
+      img {
+        margin-top: 25px;
+        margin-right: 25px;
+      }
+    }
+  }
+}
+
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+
+  .header_content {
+    min-height: 710px;
+    .sub_header_content {
+      padding: 120px 0;
+    }
+  }
+
+  .double_text {
+    margin-top: 115px;
+    p {
+      right: 10px !important;
+      top: 11px;
+      width: 158px !important;
+    }
+  }
+
+  .finans {
+    min-height: 560px;
+    .sub_finans {
+      h2 {
+        padding: 60px 0;
+      }
+      .finals_image {
+        margin-left: 50px;
+        margin-top: 45px;
+        width: auto;
+        img {
+          width: 250px;
+        }
+      }
+    }
+  }
+
+  .program_lesson {
+    .sub_program_lesson {
+      .check_block {
+        padding: 0 20px;
+      }
+      .card {
+        .block_card {
+          width: auto;
+          min-width: auto;
+          height: 120px;
+        }
+      }
+    }
+  }
+
+  .location {
+    .sub_location {
+      .left {
+        width: 50%;
+        .left_block_image {
+          width: 100%;
+          img {
+            width: 50%;
+            float: left;
+          }
+        }
+      }
+      .right {
+        width: 50%;
+        img {
+          height: 335px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .sub_footer {
+      div {
+        &:nth-child(1) {
+          padding-left: 20px;
+        }
+        &:nth-child(2) {
+
+        }
+        &:nth-child(3) {
+
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+
+  .header {
+    height: 85px;
+    .container {
+      p {
+        margin: 27px auto 0;
+        font-size: 10px;
+      }
+      .logo {
+        img {
+          height: 25px;
+        }
+        margin-top: 20px;
+        p {
+          margin: 0;
+          font-size: 10px;
+          line-height: 10px;
+          width: 175px;
+        }
+      }
+      .phone {
+        margin-top: 33px;
+        p {
+          img {
+            height: 10px;
+          }
+          span {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .header_content {
+    min-height: 500px;
+    .sub_header_content {
+      padding: 70px 0;
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+        width: 70%;
+      }
+      button {
+        height: 45px;
+        width: 200px;
+        margin: 40px auto;
+      }
+    }
+  }
+
+  .double_text {
+    margin-top: 85px;
+    span {
+      font-size: 45px;
+      top: -32px;
+      left: 15px;
+    }
+    p {
+      font-size: 12px !important;
+      width: 95px !important;
+    }
+  }
+
+  .finans {
+    min-height: 680px;
+    .sub_finans {
+      h2 {
+        width: auto;
+        line-height: 40px;
+        padding: 50px 0;
+        font: {
+          weight: 600;
+          size: 20px;
+          family: 'ProximaNova', sans-serif;
+        }
+
+      }
+      .finals_image {
+        text-align: center;
+        width: auto;
+        float: none;
+        img {
+          height: 145px;
+        }
+      }
+      .finals_list {
+        width: auto;
+      }
+    }
+  }
+
+  .program_lesson {
+    .sub_program_lesson {
+      .card {
+        .block_card {
+          height: auto;
+          float: none;
+          min-width: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+
+  .you_can {
+    .sub_you_can {
+      h2 {
+        width: auto;
+        font-size: 20px;
+      }
+      .card {
+        margin-top: 115px;
+        .double_curd_block {
+          display: block;
+          height: 230px;
+          width: auto;
+          float: none;
+        }
+      }
+    }
+  }
+
+  .location {
+    .sub_location {
+      margin: auto;
+      .left {
+        .left_block_image {
+          img {
+            width: 50%;
+            float: left;
+          }
+        }
+      }
+      div {
+        .map_location_block {
+          height: 315px;
+        }
+      }
+    }
+  }
+
+  .base_course {
+    .sub_base_course {
+      .card {
+        height: 550px;
+      }
+      button {
+        margin: 0 auto 30px;
+      }
+    }
+  }
+
+  .footer {
+    min-height: 110px;
+    .sub_footer {
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+
+  .header {
+    height: 50px;
+    .container {
+      padding: 12px 0;
+      p {
+        display: none;
+        margin: 27px auto 0;
+        font-size: 10px;
+      }
+      .logo {
+        width: auto;
+        float: none;
+        margin-top: auto;
+        img {
+          height: 25px;
+        }
+        p {
+          margin: 0;
+          font-size: 10px;
+          line-height: 10px;
+          width: 175px;
+        }
+      }
+      .phone {
+        display: none;
+      }
+    }
+  }
+
+  .header_content {
+    min-height: 500px;
+    .sub_header_content {
+      padding: 35px 0;
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+        width: 70%;
+      }
+      button {
+        height: 45px;
+        width: 200px;
+        margin: 40px auto;
+      }
+    }
+  }
+
+  .double_text {
+    margin-top: 65px;
+    span {
+      font-size: 30px;
+      top: -32px;
+      left: 15px;
+    }
+    p {
+      font-size: 10px !important;
+      right: 22px !important;
+      width: 55px !important;
+    }
+  }
+
+  .finans {
+    min-height: 810px;
+    .sub_finans {
+      h2 {
+        width: auto;
+        line-height: 40px;
+        padding: 50px 0;
+        font: {
+          weight: 600;
+          size: 20px;
+          family: 'ProximaNova', sans-serif;
+        }
+
+      }
+      .finals_image {
+        text-align: center;
+        width: auto;
+        float: none;
+        img {
+          height: 145px;
+        }
+      }
+      .finals_list {
+        width: auto;
+        .finals_list_block {
+          img {
+            display: none;
+          }
+          height: 112px;
+          p {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+
+  .program_lesson {
+    .sub_program_lesson {
+      .check_block {
+        div {
+          width: 270px;
+          margin-bottom: 10px;
+          margin-left: 42px;
+        }
+        p {
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+      .card {
+        .block_card {
+          height: auto;
+          float: none;
+          min-width: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+
+  .prezentation {
+    min-height: 715px;
+    .sub_prezentation {
+      h2 {
+        width: auto;
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+        width: auto;
+      }
+      .card {
+        .block_card {
+          height: 200px;
+          img {
+            height: 200px;
+          }
+        }
+      }
+      .register_block {
+        display: block;
+        div {
+          width: auto;
+        }
+        button {
+          height: 40px;
+          width: 190px;
+          margin: 15px auto;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .you_can {
+    .sub_you_can {
+      h2 {
+        width: auto;
+        font-size: 20px;
+      }
+      .card {
+        margin-top: 115px;
+        .double_curd_block {
+          display: block;
+          height: 230px;
+          width: auto;
+          float: none;
+        }
+      }
+    }
+  }
+
+  .location {
+    min-height: 480px;
+    .sub_location {
+      margin: auto;
+      .left {
+        .left_block_image {
+          img {
+            width: 50%;
+            float: left;
+          }
+        }
+      }
+      div {
+        p {
+          width: auto;
+        }
+        .map_location_block {
+          height: 195px;
+        }
+      }
+    }
+  }
+
+  .base_course {
+    .sub_base_course {
+      .card {
+        height: 785px;
+        .card_block {
+          width: 50%;
+          margin-top: 40px;
+        }
+      }
+      button {
+        margin: 0 auto 30px;
+      }
+    }
+  }
+
+  .footer {
+    min-height: 110px;
+    .sub_footer {
+      display: block;
+      text-align: center;
+      div {
+        width: auto;
+        img {
+          margin: 20px;
+        }
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 310px;
+  }
+
+  .header {
+    height: 50px;
+    .container {
+      padding: 12px 0;
+      p {
+        display: none;
+        margin: 27px auto 0;
+        font-size: 10px;
+      }
+      .logo {
+        width: auto;
+        float: none;
+        margin-top: auto;
+        img {
+          height: 25px;
+        }
+        p {
+          margin: 0;
+          font-size: 10px;
+          line-height: 10px;
+          width: 175px;
+        }
+      }
+      .phone {
+        display: none;
+      }
+    }
+  }
+
+  .header_content {
+    min-height: 500px;
+    .sub_header_content {
+      padding: 35px 0;
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+        width: 70%;
+      }
+      button {
+        height: 45px;
+        width: 200px;
+        margin: 40px auto;
+      }
+    }
+  }
+
+  .double_text {
+    margin-top: 65px;
+    span {
+      font-size: 30px;
+      top: -32px;
+      left: 15px;
+    }
+    p {
+      font-size: 10px !important;
+      right: 22px !important;
+      width: 55px !important;
+    }
+  }
+
+  .finans {
+    min-height: 810px;
+    .sub_finans {
+      h2 {
+        width: auto;
+        line-height: 40px;
+        padding: 50px 0;
+        font: {
+          weight: 600;
+          size: 20px;
+          family: 'ProximaNova', sans-serif;
+        }
+
+      }
+      .finals_image {
+        text-align: center;
+        width: auto;
+        float: none;
+        img {
+          height: 145px;
+        }
+      }
+      .finals_list {
+        width: auto;
+        .finals_list_block {
+          img {
+            display: none;
+          }
+          height: 112px;
+          p {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+
+  .program_lesson {
+    .sub_program_lesson {
+      .check_block {
+        div {
+          width: 270px;
+          margin-bottom: 10px;
+          margin-left: 42px;
+        }
+        p {
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+      .card {
+        .block_card {
+          height: auto;
+          float: none;
+          min-width: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+
+  .prezentation {
+    min-height: 715px;
+    .sub_prezentation {
+      h2 {
+        width: auto;
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+        width: auto;
+      }
+      .card {
+        .block_card {
+          height: 200px;
+          img {
+            height: 200px;
+          }
+        }
+      }
+      .register_block {
+        display: block;
+        div {
+          width: auto;
+        }
+        button {
+          height: 40px;
+          width: 190px;
+          margin: 15px auto;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .you_can {
+    .sub_you_can {
+      h2 {
+        width: auto;
+        font-size: 20px;
+      }
+      .card {
+        margin-top: 115px;
+        .double_curd_block {
+          display: block;
+          height: 230px;
+          width: auto;
+          float: none;
+        }
+      }
+    }
+  }
+
+  .location {
+    min-height: 480px;
+    .sub_location {
+      margin: auto;
+      .left {
+        .left_block_image {
+          img {
+            width: 50%;
+            float: left;
+          }
+        }
+      }
+      div {
+        p {
+          width: auto;
+        }
+        .map_location_block {
+          height: 195px;
+        }
+      }
+    }
+  }
+
+  .base_course {
+    .sub_base_course {
+      .card {
+        height: 785px;
+        .card_block {
+          width: 50%;
+          margin-top: 40px;
+        }
+      }
+      button {
+        margin: 0 auto 30px;
+      }
+    }
+  }
+
+  .footer {
+    min-height: 110px;
+    .sub_footer {
+      display: block;
+      text-align: center;
+      div {
+        width: auto;
+        img {
+          margin: 20px;
+        }
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
